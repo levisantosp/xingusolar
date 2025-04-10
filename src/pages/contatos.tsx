@@ -1,7 +1,7 @@
 import Header from "@/components/common/Header"
 import "../styles/globals.css"
 
-export default function Contatos() {
+export default function Contacts() {
   return (
     <>
       <Header/>

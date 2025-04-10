@@ -1,4 +1,9 @@
 import Link from "next/link"
+import { Merriweather_Sans } from "next/font/google"
+
+const merri = Merriweather_Sans({
+  weight: "300"
+});
 
 export default function Header({ children }: {
   children?: React.ReactNode
@@ -6,11 +11,19 @@ export default function Header({ children }: {
   return (
     <>
       <header>
-        <Link href="/">
-          <img src="/favicon.ico" alt="logo do site" />
-        </Link>
+        <div>
+          <h1 className="xingusolar">
+            <Link href="/">Xingu Solar</Link>
+          </h1>
+        </div>
       </header>
-      {children}
+      <html lang="pt-br">
+        <body
+          className={merri.className}
+        >
+          {children}
+        </body>
+      </html>
     </>
   );
 }
