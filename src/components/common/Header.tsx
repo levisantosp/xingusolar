@@ -2,7 +2,8 @@ import Link from "next/link"
 import { Merriweather_Sans } from "next/font/google"
 
 const merri = Merriweather_Sans({
-  weight: "300"
+  weight: "300",
+  subsets: ["latin"]
 });
 
 export default function Header({ children }: {
