@@ -44,10 +44,13 @@ body {
         position: relative;
         width: 100vw;
         min-height: 540px;
-        background: linear-gradient(to right, rgba(18, 59, 105, 1), rgba(18, 59, 105, 1) 500px, rgba(18, 59, 105, 0));
+        background: linear-gradient(
+                to right,
+                rgba(18, 59, 105, 1),
+                rgba(18, 59, 105, 1) 10%,
+                rgba(18, 59, 105, 0)
+        );
         padding-top: 50px;
-        /* left: 50%;
-        transform: translateX(-50%); */
         overflow: hidden;
 }
 
