@@ -22,7 +22,6 @@ export default function Page() {
                                                 alt="house"
                                                 className="house"
                                         />
-                                        <Link href="/contatos" className="contacts">Fale conosco</Link>
                                 </div>
                         </div>
                 </main>
