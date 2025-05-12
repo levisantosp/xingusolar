@@ -27,7 +27,8 @@ export default function Page() {
                         
                         <div className="instruction">
                                 <h1 className="instruction-title">
-                                        Como Funciona<br />Geração de Energia Solar
+                                        Como Funciona<br />
+                                        Geração de Energia Solar
                                 </h1>
                                 <div className="instruction-descs">
                                         <div>
