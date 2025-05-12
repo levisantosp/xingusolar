@@ -12,7 +12,7 @@ body {
         padding: 20px 100px;
 }
 
-.contacts {
+.contact-us {
         background-color: #d77a18;
         border-radius: 5px;
         padding: 10px 20px;
@@ -23,6 +23,7 @@ body {
         margin-left: 100px;
         position: relative;
         top: 65px;
+        cursor: pointer;
 }
 
 .title {

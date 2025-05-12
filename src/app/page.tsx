@@ -1,5 +1,4 @@
 import Image from "next/image"
-import Link from "next/link"
 
 export default function Page() {
         return (
@@ -22,6 +21,7 @@ export default function Page() {
                                                 alt="house"
                                                 className="house"
                                         />
+                                        <button className="contact-us">Fale conosco</button>
                                 </div>
                         </div>
                 </main>
