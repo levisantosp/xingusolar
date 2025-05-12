@@ -26,9 +26,9 @@ export default function Page() {
                         </div>
                         
                         < section className="bg-[#002b5b] py-16 px-4 text-white text-center">
-                                <h2 className="text-3xl font-bold mb-10">
+                                <h1 className="text-3xl font-bold mb-10">
                                         Como Funciona<br />Geração de Energia Solar
-                                </h2>
+                                </h1>
                                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 max-w-6xl mx-auto">
                                         <div>
                                                 <Image
