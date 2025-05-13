@@ -108,11 +108,11 @@ export default function Page() {
                                         </div>
                                 </div>
                         </div>
-                        <div className="our-services-contact-us-container">
+                        <div className="our-services-contact_us-container">
                                 <div className="our-services">
                                         {/* parte do hercius */}
                                 </div>
-                                <div className="contact-us">
+                                <div className="contact_us">
                                         {/* parte do axwell */}
                                 </div>
                         </div>
