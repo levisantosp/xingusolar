@@ -108,6 +108,14 @@ export default function Page() {
                                         </div>
                                 </div>
                         </div>
+                        <div className="our-services-contact-us-container">
+                                <div className="our-services">
+                                        {/* parte do hercius */}
+                                </div>
+                                <div className="contact-us">
+                                        {/* parte do axwell */}
+                                </div>
+                        </div>
                 </main>
         )
 }
