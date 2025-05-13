@@ -6,6 +6,10 @@ body {
         width: 100vw;
 }
 
+html {
+        scroll-behavior: smooth;
+}
+
 .xingusolar {
         background-color: #062b57;
         font-size: 30px;
@@ -74,7 +78,7 @@ body {
 
 .instruction {
         background-color: white;
-        color: #062b57;
+        color: black;
         width: 50vw;
         position: relative;
         height: 610px;
@@ -170,4 +174,85 @@ body {
 .how-img {
         left: 15%;
         position: absolute;
+}
+
+.our-services-contact_us-container {
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+}
+
+.contact_us-size {
+        font-size: 20px;
+}
+
+.contact_us {
+        background: #062b57;
+        position: relative;
+        width: 50vw;
+        height: 450px;
+        color: white;
+}
+
+.contact_us-title {
+        text-align: center;
+        font-weight: bold;
+        font-size: 25px;
+        padding-top: 35px;
+}
+
+.zapzap-txt {
+        padding-left: 70%;
+        top: 30%;
+        background-color: #d77a18;
+        border-radius: 5px;
+        padding: 10px 15px;
+        text-align: center;
+        line-height: 25px;
+        font-size: 20px;
+        position: absolute;
+        margin-left: 25%;
+}
+
+.ig-txt {
+        padding-left: 70%;
+        top: 45%;
+        background-color: #d77a18;
+        border-radius: 5px;
+        padding: 10px 15px;
+        text-align: center;
+        line-height: 25px;
+        font-size: 20px;
+        position: absolute;
+        margin-left: 25%;
+}
+
+.email-txt {
+        top: 60%;
+        background-color: #d77a18;
+        border-radius: 5px;
+        padding: 10px 15px;
+        text-align: center;
+        line-height: 25px;
+        font-size: 20px;
+        margin-left: 25%;
+        position: absolute;
+}
+
+.zapzap-img {
+        left: 17%;
+        position: absolute;
+        top: 30%;
+}
+
+.ig-img {
+        left: 17%;
+        position: absolute;
+        top: 45%;
+}
+
+.email-img {
+        left: 17%;
+        position: absolute;
+        top: 60%;
 }
