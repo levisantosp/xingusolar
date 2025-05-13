@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 const phrases: string[] = [
         "Proporciona economia de até 95% na conta de luz",
@@ -31,7 +32,7 @@ export default function Page() {
                                                 alt="house"
                                                 className="house"
                                         />
-                                        <button className="contact-us">Fale conosco</button>
+                                        <Link className="contact-us" href="#contact">Fale conosco</Link>
                                 </div>
                         </div>
 
@@ -112,12 +113,34 @@ export default function Page() {
                                 <div className="our-services">
                                         {/* parte do hercius */}
                                 </div>
-                                <div className="contact_us">
-                                       <div>
-                                                <h1>Fale com a Xingu Solar</h1>
-                                                <p>WhatsApp</p>
-                                                <p>Instagram</p>
-                                       </div>
+                                <div className="contact_us" id="contact">
+                                        <h1 className="contact_us-title">Fale com a Xingu Solar</h1>
+                                        <div className="contact_us-size">
+                                                <Image
+                                                        src="/whatsapp.png"
+                                                        alt="zapzap"
+                                                        width={50}
+                                                        height={50}
+                                                        className="zapzap-img"
+                                                />
+                                                <a className="zapzap-txt" href="https://api.whatsapp.com/send?phone=5593991185178" target="_blank">WhatsApp</a>
+                                                <Image
+                                                        src="/instagram.png"
+                                                        alt="zapzap"
+                                                        width={50}
+                                                        height={50}
+                                                        className="ig-img"
+                                                />
+                                                <a className="ig-txt" href="https://www.instagram.com/xingu_solar/" target="_blank">Instagram</a>
+                                                <Image
+                                                        src="/email.png"
+                                                        alt="zapzap"
+                                                        width={50}
+                                                        height={50}
+                                                        className="email-img"
+                                                />
+                                                <a href="mailto:xingusolar13@gmail.com" className="email-txt" target="_blank">E-mail</a>
+                                        </div>
                                 </div>
                         </div>
                 </main>
