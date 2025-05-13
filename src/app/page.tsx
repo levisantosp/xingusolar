@@ -72,19 +72,15 @@ export default function Page() {
                                                 <p className="instruction-desc-4">Segurança e Monitoramento</p>
                                         </div>
                                 </div>
-                        
-                        <div >
-                                <h1 >
-                                        Por que escolher <br /> a Energia Solar?
-                                </h1>
-                                <h2>Proporciona esconomia de até 95% na conta de luz
-                                </h2>
-                                <h2>Proteção contra aumentos na Tarifa</h2>
-                                <h2> Valorização do imóvel em até 20%</h2>
-                                <h2>Venda do imóvel até 30% mais rápida</h2>
                         </div>
 
+                        <div>
+                                <h1>Por que escolher <br /> a Energia Solar?</h1>
+                                <h2>Proporciona economia de até 95% na conta de luz</h2>
+                                <h2>Proteção contra aumentos na Tarifa</h2>
+                                <h2>Valorização do imóvel em até 20%</h2>
+                                <h2>Venda do imóvel até 30% mais rápida</h2>
+                        </div>
                 </main>
         )
 }
-
