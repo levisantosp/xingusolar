@@ -113,7 +113,11 @@ export default function Page() {
                                         {/* parte do hercius */}
                                 </div>
                                 <div className="contact_us">
-                                        {/* parte do axwell */}
+                                       <div>
+                                                <h1>Fale com a Xingu Solar</h1>
+                                                <p>WhatsApp</p>
+                                                <p>Instagram</p>
+                                       </div>
                                 </div>
                         </div>
                 </main>
