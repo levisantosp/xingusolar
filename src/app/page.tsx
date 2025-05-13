@@ -80,6 +80,9 @@ export default function Page() {
                                 <h2>Proteção contra aumentos na Tarifa</h2>
                                 <h2>Valorização do imóvel em até 20%</h2>
                                 <h2>Venda do imóvel até 30% mais rápida</h2>
+                                <h2>Retorno do investimento em curto prazo</h2>
+                                <h2>Durabilidade superior a 35 anos</h2>
+                                <h2>Contribuição direta para um mundo sustentável</h2>
                         </div>
                 </main>
         )
