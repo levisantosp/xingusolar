@@ -47,12 +47,10 @@ body {
         position: relative;
         width: 100vw;
         min-height: 540px;
-        background: linear-gradient(
-                to right,
-                rgba(18, 59, 105, 1),
-                rgba(18, 59, 105, 1) 10%,
-                rgba(18, 59, 105, 0)
-        );
+        background: linear-gradient(to right,
+                        rgba(18, 59, 105, 1),
+                        rgba(18, 59, 105, 1) 10%,
+                        rgba(18, 59, 105, 0));
         padding-top: 50px;
         overflow: hidden;
 }
@@ -66,6 +64,12 @@ body {
         height: 100%;
         object-fit: cover;
         z-index: -1;
+}
+
+.instruction-how-container {
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
 }
 
 .instruction {
@@ -133,4 +137,37 @@ body {
         position: absolute;
         left: 63%;
         top: 65%;
+}
+
+.how {
+        background-color: #062b57;
+        color: white;
+        width: 50vw;
+        position: relative;
+        height: 610px;
+}
+
+.how-title {
+        text-align: center;
+        font-weight: bold;
+        font-size: 25px;
+        padding-top: 35px;
+}
+
+.how-desc {
+        padding-left: 25%;
+        position: static;
+}
+
+.how-description {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0px;
+        padding-top: 3%;
+        font-size: 20px;
+}
+
+.how-img {
+        left: 15%;
+        position: absolute;
 }
