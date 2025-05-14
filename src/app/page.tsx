@@ -111,7 +111,17 @@ export default function Page() {
                         </div>
                         <div className="our-services-contact_us-container">
                                 <div className="our-services">
-                                        {/* parte do hercius */}
+                                        <h1>Nosso Serviços</h1>
+                                </div>
+                                <Image src="/vistoria.png" alt="Visita Técnica" width={60} height={60} />
+                                <p>Visita Técnica</p>
+                        </div>
+                        <div>
+                                <div>
+                                        <Image src="/dimensionamento.png" alt="Dimensionamento" width={60} height={60} />
+                                        <p>Dimensionamento</p>
+                                </div>
+                                <div>
                                 </div>
                                 <div className="contact_us" id="contact">
                                         <h1 className="contact_us-title">Fale com a Xingu Solar</h1>
