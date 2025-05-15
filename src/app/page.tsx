@@ -32,7 +32,7 @@ export default function Page() {
                                                 alt="house"
                                                 className="house"
                                         />
-                                        <Link className="contact-us" href="#contact">Fale conosco</Link>
+                                        <Link className="contact-us" href="#fale_conosco">Fale conosco</Link>
                                 </div>
                         </div>
 
@@ -110,46 +110,57 @@ export default function Page() {
                                 </div>
                         </div>
                         <div className="our-services-contact_us-container">
-                                <div className="our-services">
-                                        <h1>Nosso Serviços</h1>
-                                </div>
-                                <Image src="/vistoria.png" alt="Visita Técnica" width={60} height={60} />
-                                <p>Visita Técnica</p>
-                        </div>
-                        <div>
                                 <div>
-                                        <Image src="/dimensionamento.png" alt="Dimensionamento" width={60} height={60} />
-                                        <p>Dimensionamento</p>
+                                        <div className="our-services" id="fale_conosco">
+                                                <h1 className="our-services-title">Nosso Serviços</h1>
+                                                <Image
+                                                        src="/vistoria.png"
+                                                        alt="Visita Técnica"
+                                                        width={60} height={60}
+                                                        className="our-services-img-1"
+                                                />
+                                                <div className="our-services-size">
+                                                        <p className="our-services-desc-1">Visita Técnica</p>
+                                                        <Image
+                                                                src="/dimensionamento.png"
+                                                                alt="Dimensionamento"
+                                                                width={60}
+                                                                height={60}
+                                                                className="our-services-img-2"
+                                                        />
+                                                        <p className="our-services-desc-2">Dimensionamento</p>
+                                                </div>
+                                        </div>
                                 </div>
                                 <div>
-                                </div>
-                                <div className="contact_us" id="contact">
-                                        <h1 className="contact_us-title">Fale com a Xingu Solar</h1>
-                                        <div className="contact_us-size">
-                                                <Image
-                                                        src="/whatsapp.png"
-                                                        alt="zapzap"
-                                                        width={50}
-                                                        height={50}
-                                                        className="zapzap-img"
-                                                />
-                                                <a className="zapzap-txt" href="https://api.whatsapp.com/send?phone=5593991185178" target="_blank">WhatsApp</a>
-                                                <Image
-                                                        src="/instagram.png"
-                                                        alt="zapzap"
-                                                        width={50}
-                                                        height={50}
-                                                        className="ig-img"
-                                                />
-                                                <a className="ig-txt" href="https://www.instagram.com/xingu_solar/" target="_blank">Instagram</a>
-                                                <Image
-                                                        src="/email.png"
-                                                        alt="zapzap"
-                                                        width={50}
-                                                        height={50}
-                                                        className="email-img"
-                                                />
-                                                <a href="mailto:xingusolar13@gmail.com" className="email-txt" target="_blank">E-mail</a>
+                                        <div className="contact_us">
+                                                <h1 className="contact_us-title">Fale com a Xingu Solar</h1>
+                                                <div className="contact_us-size">
+                                                        <Image
+                                                                src="/whatsapp.png"
+                                                                alt="zapzap"
+                                                                width={50}
+                                                                height={50}
+                                                                className="zapzap-img"
+                                                        />
+                                                        <a className="zapzap-txt" href="https://api.whatsapp.com/send?phone=5593991185178" target="_blank">WhatsApp</a>
+                                                        <Image
+                                                                src="/instagram.png"
+                                                                alt="zapzap"
+                                                                width={50}
+                                                                height={50}
+                                                                className="ig-img"
+                                                        />
+                                                        <a className="ig-txt" href="https://www.instagram.com/xingu_solar/" target="_blank">Instagram</a>
+                                                        <Image
+                                                                src="/email.png"
+                                                                alt="zapzap"
+                                                                width={50}
+                                                                height={50}
+                                                                className="email-img"
+                                                        />
+                                                        <a href="mailto:xingusolar13@gmail.com" className="email-txt" target="_blank">E-mail</a>
+                                                </div>
                                         </div>
                                 </div>
                         </div>
