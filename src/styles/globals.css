@@ -121,7 +121,7 @@ html {
 
 .instruction-desc-3 {
         position: absolute;
-        padding-left: 20%;
+        padding-left: 16%;
         top: 80%;
 }
 
@@ -133,7 +133,7 @@ html {
 
 .instruction-desc-4 {
         position: absolute;
-        padding-left: 55%;
+        padding-left: 53%;
         top: 80%;
 }
 
@@ -187,11 +187,11 @@ html {
 }
 
 .contact_us {
-        background: #062b57;
+        background: white;
         position: relative;
         width: 50vw;
         height: 450px;
-        color: white;
+        color: black;
 }
 
 .contact_us-title {
@@ -212,6 +212,7 @@ html {
         font-size: 20px;
         position: absolute;
         margin-left: 25%;
+        color: white;
 }
 
 .ig-txt {
@@ -225,6 +226,7 @@ html {
         font-size: 20px;
         position: absolute;
         margin-left: 25%;
+        color: white;
 }
 
 .email-txt {
@@ -237,6 +239,7 @@ html {
         font-size: 20px;
         margin-left: 25%;
         position: absolute;
+        color: white;
 }
 
 .zapzap-img {
@@ -255,4 +258,48 @@ html {
         left: 17%;
         position: absolute;
         top: 60%;
+}
+
+.our-services-size {
+        font-size: 20px;
+}
+
+.our-services {
+        background-color: #062b57;
+        position: relative;
+        width: 50vw;
+        height: 450px;
+}
+
+.our-services-title {
+        text-align: center;
+        font-weight: bold;
+        font-size: 25px;
+        padding-top: 35px;
+}
+
+.our-services-img-1 {
+        left: 26%;
+        top: 25%;
+        position: absolute;
+        filter: invert(1);
+}
+
+.our-services-img-2 {
+        position: absolute;
+        left: 63%;
+        top: 25%;
+        filter: invert(1);
+}
+
+.our-services-desc-1 {
+        padding-left: 23%;
+        top: 40%;
+        position: absolute;
+}
+
+.our-services-desc-2 {
+        padding-left: 57%;
+        top: 40%;
+        position: absolute;
 }
