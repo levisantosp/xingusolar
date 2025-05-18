@@ -129,8 +129,22 @@ export default function Page() {
                                                                 className="our-services-img-2"
                                                         />
                                                         <p className="our-services-desc-2">Dimensionamento</p>
-                                                        <p>projeto e aprovação</p>
-                                                        <p>instalação</p>
+                                                        <Image
+                                                                src="/projeto.png"
+                                                                alt="projeto"
+                                                                width={60}
+                                                                height={60}
+                                                                className="our-services-img-3"
+                                                        />
+                                                        <p className="our-services-desc-3">Projeto e Aprovação</p>
+                                                        <Image
+                                                                src="/instalacao.png"
+                                                                alt="instalacao"
+                                                                width={60}
+                                                                height={60}
+                                                                className="our-services-img-4"
+                                                        />
+                                                        <p className="our-services-desc-4">Instalação</p>
                                                 </div>
                                         </div>
                                 </div>
