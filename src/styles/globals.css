@@ -78,7 +78,7 @@ html {
 
 .instruction {
         background-color: white;
-        color: black;
+        color: #062b57;
         width: 50vw;
         position: relative;
         height: 610px;
@@ -105,6 +105,7 @@ html {
         left: 26%;
         top: 25%;
         position: absolute;
+        filter: invert(12%) sepia(65%) saturate(700%) hue-rotate(175deg);
 }
 
 .instruction-desc-2 {
@@ -117,6 +118,7 @@ html {
         position: absolute;
         left: 63%;
         top: 25%;
+        filter: invert(12%) sepia(65%) saturate(700%) hue-rotate(175deg);
 }
 
 .instruction-desc-3 {
@@ -129,6 +131,7 @@ html {
         position: absolute;
         left: 26%;
         top: 65%;
+        filter: invert(12%) sepia(65%) saturate(700%) hue-rotate(175deg);
 }
 
 .instruction-desc-4 {
@@ -141,6 +144,7 @@ html {
         position: absolute;
         left: 63%;
         top: 65%;
+        filter: invert(12%) sepia(65%) saturate(700%) hue-rotate(175deg);
 }
 
 .how {
@@ -191,7 +195,7 @@ html {
         position: relative;
         width: 50vw;
         height: 450px;
-        color: black;
+        color: #062b57;
 }
 
 .contact_us-title {
@@ -246,18 +250,21 @@ html {
         left: 17%;
         position: absolute;
         top: 30%;
+        filter: invert(12%) sepia(65%) saturate(700%) hue-rotate(175deg);
 }
 
 .ig-img {
         left: 17%;
         position: absolute;
         top: 45%;
+        filter: invert(12%) sepia(65%) saturate(700%) hue-rotate(175deg);
 }
 
 .email-img {
         left: 17%;
         position: absolute;
         top: 60%;
+        filter: invert(12%) sepia(65%) saturate(700%) hue-rotate(175deg);
 }
 
 .our-services-size {
@@ -292,6 +299,20 @@ html {
         filter: invert(1);
 }
 
+.our-services-img-3 {
+        position: absolute;
+        left: 26%;
+        top: 60%;
+        filter: invert(1);
+}
+
+.our-services-img-4 {
+        position: absolute;
+        left: 63%;
+        top: 60%;
+        filter: invert(1);
+}
+
 .our-services-desc-1 {
         padding-left: 23%;
         top: 40%;
@@ -301,5 +322,17 @@ html {
 .our-services-desc-2 {
         padding-left: 57%;
         top: 40%;
+        position: absolute;
+}
+
+.our-services-desc-3 {
+        padding-left: 19%;
+        top: 75%;
+        position: absolute;
+}
+
+.our-services-desc-4 {
+        padding-left: 60.5%;
+        top: 75%;
         position: absolute;
 }
